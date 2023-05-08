@@ -1,0 +1,83 @@
+<html>
+    <head>
+    </head>
+    <title>Página de inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-inverse" style="background-color:#031926; height:80px;">
+            <form class="container-fluid"style="margin-top: 20px; position:absolute">
+              
+              <ul class="nav" style="width: 80%; margin-right: 2%;">
+                <a style="color: white;" class="navbar-brand" href="Página.html">Veterinaria</a>
+                <li><a style="color: #cdcdcd;" class="nav-item nav-link " href="Página.html">Inicio</a></li>
+              </ul>
+
+              <a href="../Login/Index.php"><button class="btn btn-success me-2" type="button" id="IniciaSesion">Iniciar sesión</button></a>
+              
+            </form>
+          </nav>
+
+          <div id="medio" style="background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://live.staticflickr.com/2654/4087602766_73ed52908d_b.jpg');
+          background-repeat: no-repeat;background-size: cover; height: 530;">
+              <br>
+              <h2 class="text-center letras" >Universidad Autónoma de Querétaro</h2>
+              <figure class="figure">
+                <img src="logos.png" class="rounded mx-auto d-block"alt="" width="12%">
+              </figure>
+              <h3 class="text-center letras">Facultad de Informática</h3>
+              <br>
+              <h5 class="text-center letras">Materia: Arquitecturas de Ti Empresariales</h5>
+              <br>
+              <h2 class="text-center letras" >Proyecto: Sistema de apoyo para realización de exámenes veterinarios</h2>
+          </div>
+
+            <div class="card-group">
+              <div class="card">
+                <div class="card-body" style="background-color: #bdbdbd;">
+                  <h5 class="card-title" style="color: #000000;">Urianálisis</h5>
+                  <p class="card-text" style="color: #000000;">Será enviado a un formulario para registrar los resultados, 
+                    favor de tenerlos a la mano</p>
+                  <a href="../Analisis/form.html" class="btn btn1">Realizar documento</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body" style="background-color: #bdbdbd;">
+                  <h5 class="card-title" style="color: #000000;">Parasitología</h5>
+                  <p class="card-text" style="color: #000000;">Será enviado a un formulario para registrar los resultados, 
+                    favor de tenerlos a la mano</p>
+                    <a href="../Analisis/form.html" class="btn btn1">Realizar documento</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body" style="background-color: #bdbdbd;">
+                  <h5 class="card-title" style="color: #000000;">Hematología</h5>
+                  <p class="card-text" style="color: #000000;">Será enviado a un formulario para registrar los resultados, 
+                    favor de tenerlos a la mano</p>
+                    <a href="../Analisis/form.html" class="btn btn1">Realizar documento</a>
+                </div>
+              </div>
+            </div>
+          
+    </body>
+    <style>
+      .btn1{
+        background-color:#031926; 
+        color:#fff;
+      }
+      .btn1:hover {
+        background-color: #154058;
+        color: white;
+      }
+      .letras {
+        color: #bdbdbd;
+        text-shadow: black 0.1em 0.1em 0.2em;
+
+      }
+    </style>
+</html>
