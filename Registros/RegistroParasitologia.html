@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro Parasitología</title>
+    <link rel="stylesheet" href="../Estilos/styleParasitologia.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registro de resultados</div>
+      <div class="content">
+        <form action="#">
+          <div class="resultados">
+            <div class="input-box">
+              <label class="details" for="anamnesis">Anamnesis:</label>
+              <input type="text" id="anamnesis" name="anamnesis" required>
+            </div>
+
+            <div class="input-box">
+              <label class="details" for="tratamientoprevio">Tratamiento previo:</label>
+              <input type="text" id="tratamientoprevio" name="tratamientoprevio" required>
+            </div>
+
+            <div class="input-box">
+              <label class="details" for="resultado">Resultado:</label>
+              <input type="text" id="resultado" name="resultado" required>
+            </div>
+
+            <div class="detalles-muestra">
+              <label for="tipodemuestra">Tipo de muestra:</label>
+              <select id="tipodemuestra" name="tipodemuestra" required>
+                  <option value="">Seleccione una opcion</option>
+                  <option value="raspado">Raspado</option>
+                  <option value="ejemplarparasito">Ejemplar de parasito</option>
+                  <option value="heces">Heces</option>
+                  <option value="hecesseriadas">Hece seriadas</option>
+              </select>
+            </div>
+
+            <div class="detalles-tecnica">
+              <label for="tecnica">Tecnica:</label>
+              <select type="number" id="tecnica" name="tecnica" required>
+                <option value="">Seleccione una opcion</option>
+                <option value="raspadocutaneo">Raspado cutaneo</option>
+                <option value="identificaciondirecta">Identificacion directa</option>
+                <option value="flotacion">Flotacion</option>
+                <option value="faust">Faust</option>
+                <option value="flotacionyfaust">Flotacion y faust</option>
+            </select>
+            </div>
+
+            <div class="boton-siguiente">
+              <button type="submit">Registrar paciente</button>
+            </div>
+
+            <div class="boton-siguientePDF">
+              <button type="submit">Registrar paciente y generar PDF</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
