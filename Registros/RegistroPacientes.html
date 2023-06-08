@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formato de registro responsivo</title>
+    <link rel="stylesheet" href="../Estilos/stylePacientes.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+<div class="container">
+  <div class="title">Registro de pacientes</div>
+  <form action="#">
+    <div class="user-details">
+
+      <div class="input-box">
+        <span class="details">Especie:</span>
+        <input type="text" id="especie" name="especie" placeholder="Ingresa la especie" required>
+      </div>
+
+      <div class="input-box">
+        <span class="details">Nombre:</span>
+        <input type="text" id="name" name="name" placeholder="Ingresa el nombre" required>
+      </div>
+
+
+      <div class="input-box">
+        <span class="details">Raza:</span>
+        <input type="text" id="raza" name="raza" placeholder="Ingresa la especie" required>
+      </div>
+      
+      <div class="input-box">
+          <span class="details">Edad:</span>
+          <input type="text" id="edad" name="edad" placeholder="Ingresa la especie" required>
+      </div>
+
+      <div clas="input-box">
+        <span class="details">Médico Veterinario Zootecnista:</span>
+        <input type="text" id="mvz" name="mvz" placeholder="Ingresa el ID del MVZ acargo" required>
+      </div>
+
+      <div class="input-gender">
+        <span class="gender-title">Sexo:</span>
+        <div class="categoria">
+          <input type="radio" id="opcionsexo" name="sexo" value="Macho" />
+          <label for="opcionsexo">Macho</label>
+
+          <input type="radio" id="opcionsexo2" name="sexo" value="Hembra" />
+          <label for="opcionsexo">Hembra</label>
+        </div>
+      </div>
+
+      <div class="input-radio">
+        <span class="details-castrado">Castrado:</span>
+        <div>
+          <input type="radio" id="castrado1" name="Castrado" value="Sí" />
+          <label for="opcioncastrado">Sí</label>
+
+          <input type="radio" id="castrado2" name="Castrado" value="No" />
+          <label for="opcioncastrado">No</label>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <button type="submit">Registrar</button>
+    </div>
+
+    <div class="boton-siguientePDF">
+      <button type="submit">Registrar paciente y generar PDF</button>
+    </div>
+    
+  </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
